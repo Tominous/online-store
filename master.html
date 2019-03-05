@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style/style.css">
+
+
+<body class="content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="sidebar bar-block white collapse top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="padding-64 large text-grey" style="font-weight:bold">
+    <a href="#" class="bar-item button">Shirts</a>
+    <a href="#" class="bar-item button">Dresses</a>
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="button block white left-align" id="myBtn">
+      Jeans <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="demoAcc" class="bar-block hide padding-large medium">
+      <a href="#" class="bar-item button light-grey"><i class="fa fa-caret-right margin-right"></i>Skinny</a>
+      <a href="#" class="bar-item button">Relaxed</a>
+      <a href="#" class="bar-item button">Bootcut</a>
+      <a href="#" class="bar-item button">Straight</a>
+    </div>
+    <a href="#" class="bar-item button">Jackets</a>
+    <a href="#" class="bar-item button">Gymwear</a>
+    <a href="#" class="bar-item button">Blazers</a>
+    <a href="#" class="bar-item button">Shoes</a>
+  </div>
+  <a href="#footer" class="bar-item button padding">Contact</a> 
+  <a href="javascript:void(0)" class="bar-item button padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
+  <a href="#footer"  class="bar-item button padding">Subscribe</a>
+</nav>
+
+<div class="main" style="margin-left:250px">
+  
+  <!-- Top header -->
+  <header class="container xlarge">
+    <p class="left">Jeans</p>
+    <p class="right">
+      <i class="fa fa-shopping-cart margin-right"></i>
+      <i class="fa fa-search"></i>
+    </p>
+  </header>
+
+  
+  
+  
+  
+  <div class="container text-grey" id="jeans">
+    <p>8 items</p>
+  </div>
+
+  <!-- Product grid -->
+  <div class="row grayscale">
+    <div class="col l3 s6">
+      <div class="container">
+        <img src="/w3images/jeans1.jpg" style="width:100%">
+        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+      </div>
+      <div class="container">
+        <img src="/w3images/jeans2.jpg" style="width:100%">
+        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+      </div>
+    </div>
+
+    <div class="col l3 s6">
+      <div class="container">
+        <div class="display-container">
+          <img src="/w3images/jeans2.jpg" style="width:100%">
+          <span class="tag display-topleft">New</span>
+          <div class="display-middle display-hover">
+            <button class="button black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+      </div>
+      <div class="container">
+        <img src="/w3images/jeans3.jpg" style="width:100%">
+        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+      </div>
+    </div>
+
+    <div class="col l3 s6">
+      <div class="container">
+        <img src="/w3images/jeans3.jpg" style="width:100%">
+        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+      </div>
+      <div class="container">
+        <div class="display-container">
+          <img src="/w3images/jeans4.jpg" style="width:100%">
+          <span class="tag display-topleft">Sale</span>
+          <div class="display-middle display-hover">
+            <button class="button black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Vintage Skinny Jeans<br><b class="text-red">$14.99</b></p>
+      </div>
+    </div>
+
+    <div class="col l3 s6">
+      <div class="container">
+        <img src="/w3images/jeans4.jpg" style="width:100%">
+        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+      </div>
+      <div class="container">
+        <img src="/w3images/jeans1.jpg" style="width:100%">
+        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
