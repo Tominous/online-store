@@ -33,9 +33,7 @@ The manager of the shop can do the following:
 
 In this website, the manager can only view the tables and cannot modify them or perform any other tasks.
 
-## Features
-
-### Structure and Merchandise
+## Structure and Merchandise
 
 * The site has a home page, a user login page, a manager login page and
  one page each for Books, CDs, Games and DVDs.
@@ -49,7 +47,7 @@ In this website, the manager can only view the tables and cannot modify them or 
  in an HTML page; instead, the HTML page is created dynamically from
  a .php page by consulting the database whenever that .php is loaded.
  
-### Customer Logon and Purchase
+## Customer Logon and Purchase
 
 * The user can log in to the site and log off again using their
  customer_number and passwd from the customer table in the database.
@@ -81,7 +79,7 @@ In this website, the manager can only view the tables and cannot modify them or 
  stock count of zero. The system should give an error message and not
  purchase the item for the customer.
  
-### Customer Review and Search
+## Customer Review and Search
 
 * Next to an item for sale is a Review button. If a logged-on user
  clicks that button they can enter a simple 1-5 integer
