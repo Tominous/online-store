@@ -15,21 +15,20 @@ There are two kinds of users of the site, firstly Customers, and secondly the Ma
 
 A customer of the site can do the following:
 
-1. View pages of books, music CDs, games and DVDs without logging on. Customers are able to see the price and stock count of each item, but they are not be able to buy without logging on.
+* View pages of books, music CDs, games and DVDs without logging on. Customers are able to see the price and stock count of each item, but they are not be able to buy without logging on.
 
-2. Log on as a customer and then buy an item by clicking a button which says ‘Buy’ which is next to each such item. Note there is no shopping cart and minimal process involved. Clicking the button goes to a purchase page where a button can be clicked to complete the purchase.⋅⋅
+* Log on as a customer and then buy an item by clicking a button which says ‘Buy’ which is next to each such item. Note there is no shopping cart and minimal process involved. Clicking the button goes to a purchase page where a button can be clicked to complete the purchase.
+Buying an item creates one new entry in the customer_order table and one new entry in the order_item table. (It is assumed a customer orders one item at a time and there is one customer_order and one order_item for that item.)
 
-⋅⋅⋅Buying an item creates one new entry in the customer_order table and one new entry in the order_item table. (It is assumed a customer orders one item at a time and there is one customer_order and one order_item for that item.)
-
-3. Log out.
+* Log out.
 
 ###  The Manager
 
 The manager of the shop can do the following:
 
-1. Log on as manager and then view all the database tables on the system.
+* Log on as manager and then view all the database tables on the system.
 
-2. Log out. 
+* Log out. 
 
 In this website, the manager can only view the tables and cannot modify them or perform any other tasks.
 
