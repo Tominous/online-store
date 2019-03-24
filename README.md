@@ -19,7 +19,7 @@ A customer of the site can do the following:
 
 2. Log on as a customer and then buy an item by clicking a button which says ‘Buy’ which is next to each such item. Note there is no shopping cart and minimal process involved. Clicking the button goes to a purchase page where a button can be clicked to complete the purchase.
 
-Buying an item creates one new entry in the customer_order table and one new entry in the order_item table. (It is assumed a customer orders one item at a time and there is one customer_order and one order_item for that item.)
+⋅⋅⋅Buying an item creates one new entry in the customer_order table and one new entry in the order_item table. (It is assumed a customer orders one item at a time and there is one customer_order and one order_item for that item.)
 
 3. Log out.
 
